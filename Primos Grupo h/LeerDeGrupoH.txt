@@ -1,0 +1,30 @@
+Programa de números primos del 1 al 500000000 en c++ con OpenMP compilado en maquina virtual Lubuntu 4 CPUs.
+
+Este programa implementa un algoritmo investigado que se denomina "la Criba de Atkin" para calcular los primos, sumado a tener que ir descartando números no primos y mostrar por pantalla todos los números primos hasta 500000000 (Quinientos millones, ojala tener eso en dinero ah).
+
+El programa utiliza OpenMP para paralelizar algunas partes del código y así llegar al deseado "menos es mejor" y poder superar el algoritmo que entrego usted profe.
+
+Aunque ya es obvio usted nos recomendó crear este archivo.
+para compilar ocupamos (sin las comillas):
+
+"g++ -fopenmp primosNicoPauMati.cpp -o primosNicoPauMati"
+
+y para ejecutar ocupamos:
+
+"./primosNicoPauMati"
+
+Y así el programa imprimirá todos los números primos hasta el límite especificado en este caso los 500 millones, seguido del número total de primos encontrados y el tiempo de cálculo de los primos junto al el tiempo total de ejecución incluyendo la impresión por pantalla.
+Para cambiar el límite de los primos solo modificar la variable "limite".
+
+Integrantes: Nicolas Ruiz
+			 Paula Ruiz
+			 Matias Zapata
+		
+Referencias: 
+https://es.scribd.com/document/488134890/criba-de-atkin#
+https://es.wikipedia.org/wiki/Criba_de_Atkin
+https://www.juntadeandalucia.es/averroes/centros-tic/18601059/helvia/aula/archivos/repositorio/250/354/html/Plan%204-6-09/criba.htm
+https://es.wikipedia.org/wiki/Criba_de_Erat%C3%B3stenes
+https://juncotic.com/criba-de-eratostenes-algoritmos-antiguos/
+https://www.geeksforgeeks.org/sieve-of-atkin/
+
